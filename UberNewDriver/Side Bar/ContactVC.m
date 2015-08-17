@@ -1,0 +1,56 @@
+//
+//  ContactVC.m
+//  UberforX Provider
+//
+//  Created by My Mac on 11/12/14.
+//  Copyright (c) 2014 Deep Gami. All rights reserved.
+//
+
+#import "ContactVC.h"
+#import "BaseVC.h"
+
+@interface ContactVC ()
+{
+    NSMutableDictionary *dictContact;
+}
+
+@end
+
+@implementation ContactVC
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [super setBackBarItem];
+    self.btnMenu.titleLabel.font=[UberStyleGuide fontRegular];
+    self.btnMenu.titleLabel.text=[self.dictContact valueForKey:@"title"];
+    
+            [self.webViewContact setDelegate:self];
+            NSString *urlAddress =[self.dictContact valueForKey:@"content"];
+            [self.webViewContact loadHTMLString:urlAddress baseURL:nil];
+    
+    
+    
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+- (IBAction)backBtnPressed:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+@end

@@ -1,0 +1,64 @@
+/*
+ Localizable.strings
+ UberNewDriver
+ 
+ Created by Deep Gami on 27/09/14.
+ Copyright (c) 2014 Deep Gami. All rights reserved.
+ */
+
+"REGISTER_FAIL" = "Registration Failed";
+"REGISTER_SUCCESS" = "Thank You for your registration, Please wait while the admin approves your request";
+"SIGING_SUCCESS" = "Welcome ";
+"CAM_NOT_AVAILABLE" = "Camera Not Available";
+"SIGNIN_FAILED" = "Login failed, Please try again ..";
+"NO_INTERNET" = "Check Your Internet Connection";
+"SENDING MAIL" = "Sending Mail";
+"OK" = "OK!";
+"LOADING" = "Loading...";
+
+// SIGn VC
+
+"SIGN_IN" = "Please wait while we sign you in ..";
+"PLEASE_EMAIL"="Please enter a email address.";
+"PLEASE_PASSWORD"="Please enter a password.";
+
+//PickMeUp VC
+
+"WAITING_ADMIN_APPROVE" = "Accepting";
+"REQUEST_REJECTED" = "Request Rejected";
+"REQUEST_ACCEPTED" = "Request Accepted";
+
+//Arrived MapVC
+
+"WAITING_WALKER_START" = "Waiting for the provider to start";
+"WAITING_TRIP_START" = "Waiting for the trip to start";
+"WAITING_TRIP_COMPLETE" = "Waiting for the trip to complete";
+
+"WALKER_STARTED" = "Started towards the client";
+"WALKER_ARRIVED" = "Arrived at client pickup place";
+"WALK_STARTED" = "Trip has been started";
+"JOB_DONE" = "Trip completed";
+
+//FeedbackVC
+
+"WAITING_FOR_FEEDBACK" = "Waiting for the provider to provide feedback";
+"RATING_COMPLETED" = "Thank You for providing feedback";
+
+// HIstory VC
+"ERROR"="Oops! An error occured, Please Try Again.";
+"LOADING_HISTORY" = "Loading history";
+
+// Profile VC
+
+"UPDATING_PROFILE" = "Updating profile, please wait ...";
+"PROFILE_UPDATED" = "Profile is updated successfully";
+
+//Forgot Password
+
+"PASSWORD_SENT_SUCCESS" = "Your password has been sent to your registered email";
+"ERROR"="Oops ! An error occured, Please try again.";
+
+//Setting VC
+
+"AVAILABILITY_UODATE"="Your availability has been updated";
+
